@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright 2010 Tobias Teunissen
+  
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+  
+    http://www.apache.org/licenses/LICENSE-2.0
+  
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<PreferenceCategory android:title="@string/pref_tracking">
+		<ListPreference android:entryValues="@array/min_recording_interval_values"
+			android:entries="@array/min_recording_interval_options" android:key="minTrackingInterval"
+			android:summary="@string/pref_min_recording_interval_summary"
+			android:title="@string/pref_min_recording_interval"
+			android:defaultValue="0" />
+
+		<ListPreference android:entryValues="@array/min_recording_distance_values"
+			android:entries="@array/min_recording_distance_options" android:key="minTrackingDistance"
+			android:summary="@string/pref_min_recording_distance_summary"
+			android:title="@string/pref_min_recording_distance"
+			android:defaultValue="10" />
+
+		<ListPreference android:key="minRequiredAccuracy"
+			android:title="@string/pref_min_required_accuracy" android:summary="@string/pref_min_required_accuracy_summary"
+			android:entries="@array/min_required_accuracy_options"
+			android:entryValues="@array/min_required_accuracy_values"
+			android:defaultValue="250" />
+
+
+		<EditTextPreference android:key="maxBelievableSpeed"
+			android:title="@string/pref_speed_filter" android:summary="@string/pref_speed_filter_summary"
+			android:dialogTitle="@string/pref_speed_filter"
+			android:dialogMessage="@string/pref_speed_filter_summary"
+			android:defaultValue="30" />
+
+	</PreferenceCategory>
+	<PreferenceCategory android:title="@string/pref_bluetooth">
+		<CheckBoxPreference android:defaultValue="false"
+			android:key="disableBluetooth" android:title="@string/pref_bluetooth_disable"
+			android:summary="@string/pref_bluetooth_disable_summary"></CheckBoxPreference>
+		<CheckBoxPreference android:key="bluetoothstartup"
+			android:title="@string/pref_bluetooth_startup" android:summary="@string/pref_bluetooth_startup_summary"/>
+	
+</PreferenceCategory>
+	<PreferenceCategory android:title="@string/pref_sharing">
+		<EditTextPreference android:key="rennradnewsApiKey"
+			android:title="@string/pref_share_rn_api_key" android:summary="@string/pref_share_rn_api_key_summary"
+			android:dialogMessage="@string/pref_share_rn_api_key_summary"
+			android:dialogTitle="@string/pref_share_rn_api_key"></EditTextPreference>
+			<EditTextPreference android:key="rennradnewsBikeId"
+			android:title="@string/pref_share_rn_bike_id" android:summary="@string/pref_share_rn_bike_id_summary"
+			android:dialogMessage="@string/pref_share_rn_bike_id_summary"
+			android:dialogTitle="@string/pref_share_rn_bike_id"></EditTextPreference>
+	</PreferenceCategory>
+
+	<PreferenceCategory android:title="@string/pref_fitness">
+		<EditTextPreference android:title="@string/pref_heart_rate_max"
+			android:summary="@string/pref_heart_rate_max_summary" android:key="heartrateMax"
+			android:defaultValue="0"></EditTextPreference>
+			<EditTextPreference android:title="@string/pref_heart_rate_min"
+			android:summary="@string/pref_heart_rate_min_summary" android:key="heartrateMin"
+			android:defaultValue="0"></EditTextPreference>
+			<EditTextPreference android:title="@string/pref_age"
+			android:summary="@string/pref_age_summary" android:key="age"
+			android:defaultValue="25"></EditTextPreference>
+			<EditTextPreference android:title="@string/pref_weight"
+			android:summary="@string/pref_weight_summary" android:key="weight"
+			></EditTextPreference>
+	</PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright 2010 Tobias Teunissen
+  
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+  
+    http://www.apache.org/licenses/LICENSE-2.0
+  
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<resources>
+    <string name="waiting_for_gps">Waiting for GPS Signal. Please wait...</string>
+    <string name="loading_title">Loading Data</string>
+    <string name="loading_data">Loading Data! Please wait...</string>
+    <string name="detail_average_cadence">Average cadence</string>
+    <string name="detail_max_heart_rate">Maximum heart rate</string>
+    <string name="details_average_heart_rate">Average heart rate</string>
+    
+    <!-- Share Dialog -->
+    <string name="ok">OK</string>
+    <string name="temperature">Temperature</string>
+    <string name="mood">Mood</string>
+    <string name="weather">Weather</string>
+    <string name="zone">Zone</string>
+    <string name="sports">Sports</string>
+    <string name="share">share</string>
+
+	<string name="app_name">CycleMeter</string>
+	<string name="tracks">Tracks</string>
+	<string name="label_name">Name:</string>
+	<string name="label_description">Description:</string>
+	<string name="label_date">Date:</string>
+	<string name="label_sports">Sports:</string>
+	<string name="bluetooth_settings">Bluetooth Settings</string>
+	<string name="check_bluetooth">Check for bluetooth at startup</string>
+	<string name="accuracy_settings">Accuracy Settings</string>
+	<string name="settings">Settings</string>
+	<string name="about">About</string>
+	<string name="map">Map</string>
+	<string name="pause">Pause</string>
+	<string name="resume">Resume</string>
+	<string name="start">Start</string>
+	<string name="stop">Stop</string>
+	<string name="statistics">Statistics</string>
+	<string name="layer_satellite">Satellite</string>
+	<string name="layer_traffic">Traffic</string>
+	<string name="layer_speed">Speed</string>
+	<string name="unknown">-</string>
+
+
+	<!--Menu -->
+	<string name="menu_shareTrack">Share track</string>
+	<string name="menu_deleteTrack">Delete track</string>
+	<string name="menu_renameTrack">Rename track</string>
+	<string name="menu_statistics">Statistics</string>
+	<string name="menu_tracking">Tracking Control</string>
+	<string name="menu_mapstyle">Map Style</string>
+	<string name="menu_settings">Settings</string>
+	<string name="menu_about">About</string>
+	<string name="menu_scan_bt">Search for HxM</string>
+	<string name="menu_map">Map</string>
+	<string name="add_track">Add track</string>
+
+	<!--Dialogs -->
+	<string name="dialog_routename_title">Rename the track</string>
+	<string name="dialog_routename_message">Please enter the new name of the track</string>
+	<string name="dialog_delete_title">Delete track</string>
+	<string name="dialog_delete_message">Please confirm the deletion of the track %s</string>
+	<string name="dialog_mapstyle_title">Choose MapStyle</string>
+
+	<!--Track Details -->
+	<string name="detail_title">detailistics - %s</string>
+	<string name="detail_maximumspeed">Maximum speed</string>
+	<string name="detail_altitudeUp">Altitude up</string>
+	<string name="detail_altitudeDown">Altitude down</string>
+	<string name="detail_overallaveragespeed">Travel speed</string>
+	<string name="detail_averagespeed">Average speed</string>
+	<string name="detail_distance">Tracked distance</string>
+	<string name="detail_endtime">Last time</string>
+	<string name="detail_starttime">Start time</string>
+	<string name="detail_trackname">Track name</string>
+	<string name="detail_points">Waypoints</string>
+
+	<!-- Preference Categories -->
+	<string name="pref_tracking">GPS Tracking</string>
+	<string name="pref_bluetooth">Bluetooth</string>
+	<string name="pref_fitness">Fitness</string>
+	<string name="pref_sharing">Sharing</string>
+	
+	<!-- Preferences -->
+	<string name="pref_min_recording_distance">Min distance between points</string>
+  	<string name="pref_min_recording_distance_summary">Smallest distance between two recordings of your position</string>
+  	<string name="pref_min_recording_interval">Min time between points</string>
+	<string name="pref_min_recording_interval_summary">Smallest time interval between two recordings of your position</string>
+	<string name="pref_min_required_accuracy">Minimum accuracy</string>
+  	<string name="pref_min_required_accuracy_summary">Tracked positions will be rejected if your position is not at least this accurate</string>
+  	<string name="pref_speed_filter">Speed filter between points</string>
+  	<string name="pref_speed_filter_summary">Tracked positions will be rejected if the speed is bigger then the upper bound (in m/s)</string>
+  	
+  	<string name="pref_bluetooth_startup">Connect to HxM at startup</string>
+  	<string name="pref_bluetooth_startup_summary">After starting the app connection to HxM will be setup</string>
+  	<string name="pref_bluetooth_disable">Disable bluetooth</string>
+  	<string name="pref_bluetooth_disable_summary">If you don\'t like to use bluetooth disable it here</string>
+  	
+  	<string name="pref_heart_rate_max">Your maximum heart rate</string>
+  	<string name="pref_heart_rate_max_summary">Enter your max heart rate here for some callculations</string>
+  	<string name="pref_heart_rate_min">Your minimum heart rate</string>
+  	<string name="pref_heart_rate_min_summary">Enter your min heart rate here for some callculations</string>
+  	<string name="pref_age">Your age</string>
+  	<string name="pref_age_summary">Enter your age here for some callculations</string>
+  	<string name="pref_weight">Your weight</string>
+  	<string name="pref_weight_summary">Enter your weight here for some callculations</string>
+  	
+  	<string name="pref_share_rn_api_key">Your rennrad-news.de API-key</string>
+  	<string name="pref_share_rn_api_key_summary">Enter your API-key to share your tracks to rennrad-news.de</string>
+  	<string name="pref_share_rn_bike_id">Your rennrad-news.de bike id</string>
+  	<string name="pref_share_rn_bike_id_summary">Enter your bike-id to share your tracks to rennrad-news.de</string>
+  	
+  	 
+	
+	<!--About -->
+	<string name="label_version">Version</string>
+	<string name="label_developer">Developed by</string>
+	<string name="label_email">Email</string>
+	<string name="label_homepage">Homepage</string>
+	<string name="label_license">License</string>
+	<string name="field_license">
+		Copyright 2010 Tobias Teunissen \n
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at \n
+
+       http://www.apache.org/licenses/LICENSE-2.0 \n
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.   
+    </string>
+
+
+	<!-- DeviceListActivity -->
+	<string name="scanning">scanning for devices...</string>
+	<string name="select_device">select a device to connect</string>
+	<string name="none_paired">No devices have been paired</string>
+	<string name="none_found">No devices found</string>
+	<string name="title_paired_devices">Paired Devices</string>
+	<string name="title_other_devices">Other Available Devices</string>
+	<string name="button_scan">Scan for devices</string>
+	<string name="button_abort">Abort</string>
+
+	<!-- Speedometer View -->
+	<string name="meter">m</string>
+	<string name="km">km</string>
+	<string name="hour">h</string>
+	<string name="bpm">bpm</string>
+
+	<!-- Average Moving -->
+	<string name="average_cadence_label">Average Cadence</string>
+	<string name="average_moving_pace_label">Average Moving Pace</string>
+
+	<!-- Average -->
+	<string name="average_speed_label">Average Speed</string>
+	<string name="average_pace_label">Average Pace</string>
+
+	<string name="altitude_max_label">Max Altitude</string>
+	<string name="altitude_label">Altitude</string>
+	<string name="latitude_label">Latitude</string>
+	<string name="longitude_label">Longitude</string>
+
+	<!-- Min -->
+	<string name="altitude_up_label">Altitude Up</string>
+	<string name="min_grade_label">Min Grade</string>
+	<string name="min_pace_label">Min Pace</string>
+
+	<!-- Max -->
+	<string name="altitude_down_label">Altitude Down</string>
+	<string name="max_grade_label">Max Grade</string>
+	<string name="max_speed_label">Max Speed</string>
+
+	<!-- Stats Labels -->
+	<string name="cadence_label">Cadence</string>
+	<string name="total_time_label">Total Time</string>
+	<string name="time_label">Time</string>
+	<string name="sd_unavail">SD Unavailable</string>
+	<string name="speed">Speed</string>
+	<string name="heartbeat">Heartbeat</string>
+	<string name="start_trip">You must start a trip.</string>
+	<string name="total_distance_label">Total Distance</string>
+	<string name="distance_label">Distance</string>
+	<string name="waiting">Waiting...</string>
+
+</resources>
