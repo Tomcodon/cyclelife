@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright 2010 Tobias Teunissen
+  
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+  
+    http://www.apache.org/licenses/LICENSE-2.0
+  
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<resources>
+
+	<!-- Minimum recording distance -->
+	<string-array name="min_recording_distance_options">
+		<item>1 m</item>
+		<item>2 m</item>
+		<item>3 m</item>
+		<item>4 m</item>
+		<item>5 m</item>
+		<item>10 m (empfohlen)</item>
+		<item>100 m</item>
+	</string-array>
+
+	<!-- DO NOT TRANSLATE -->
+	<string-array name="min_recording_distance_values">
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>10</item>
+		<item>100</item>
+	</string-array>
+
+	<!-- Minimum recording interval; values in sec -->
+	<string-array name="min_recording_interval_options">
+		<item>höchste (empfohlen)</item>
+		<item>2 s</item>
+		<item>3 s</item>
+		<item>4 s</item>
+		<item>5 s</item>
+		<item>10 s</item>
+		<item>20 s</item>
+		<item>30 s</item>
+		<item>1 min</item>
+		<item>2 min</item>
+		<item>5 min</item>
+	</string-array>
+
+	<!-- DO NOT TRANSLATE -->
+	<string-array name="min_recording_interval_values">
+		<item>0</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>10</item>
+		<item>20</item>
+		<item>30</item>
+		<item>60</item>
+		<item>120</item>
+		<item>300</item>
+	</string-array>
+
+	<!-- Minimum required accuracy, values in meter -->
+	<string-array name="min_required_accuracy_options">
+		<item>10 m (excellentes GPS-Signal)</item>
+		<item>20 m</item>
+		<item>50 m</item>
+		<item>100 m</item>
+		<item>250 m (empfohlen)</item>
+		<item>500 m</item>
+		<item>1000 m</item>
+		<item>2000 m</item>
+		<item>5000 m (schlechtes GPS-Signal)</item>
+	</string-array>
+
+	<!-- DO NOT TRANSLATE -->
+	<string-array name="min_required_accuracy_values">
+		<item>10</item>
+		<item>20</item>
+		<item>50</item>
+		<item>100</item>
+		<item>250</item>
+		<item>500</item>
+		<item>1000</item>
+		<item>2000</item>
+		<item>5000</item>
+	</string-array>
+
+	<!-- Sharing Rennradnews.de -->
+
+	<string-array name="sports">
+		<item>Radfahren</item>
+		<item>Laufen</item>
+		<item>Kraftsport</item>
+		<item>Schwimmen</item>
+		<item>Sonstiges</item>
+		<item>Skilanglauf</item>
+	</string-array>
+
+	<string-array name="zone">
+		<item>Regeneration</item>
+		<item>GA 1</item>
+		<item>GA 2</item>
+		<item>Kraftausdauer 1</item>
+		<item>Kraftausdauer 2</item>
+		<item>Wettkampfspezifische Ausdauer 1</item>
+		<item>Wettkampfspezifische Ausdauer 2</item>
+		<item>Wettkampf</item>
+		<item>Sonstiges</item>
+		<item>zum Spaß</item>
+		<item />
+		<item>RTF</item>
+		<item>CTF</item>
+	</string-array>
+
+	<string-array name="weather">
+		<item>sonnig</item>
+		<item>heiter</item>
+		<item>wolkig</item>
+		<item>wechselhaft</item>
+		<item>bewölkt</item>
+		<item>Regen</item>
+		<item>Schnee</item>
+	</string-array>
+
+	<string-array name="mood">
+		<item>Sehr gut</item>
+		<item>Gut</item>
+		<item>Mittelmäßig</item>
+		<item>Eher schlecht</item>
+		<item>Sehr schlecht, krank</item>
+	</string-array>
+
+</resources>

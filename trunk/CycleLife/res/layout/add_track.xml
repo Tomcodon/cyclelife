@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright 2010 Tobias Teunissen
+  
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+  
+    http://www.apache.org/licenses/LICENSE-2.0
+  
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_height="wrap_content" android:layout_width="fill_parent">
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:id="@+id/tvAddTrackName" android:layout_alignBaseline="@+id/etAddTrackName" android:layout_margin="10dip" android:text="@string/label_name" android:minWidth="80dip"></TextView>
+<EditText android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/etAddTrackName" android:layout_toRightOf="@+id/tvAddTrackName" android:layout_marginRight="10dip" android:width="200dip"></EditText>
+
+
+
+
+
+
+<EditText android:layout_height="wrap_content" android:layout_below="@+id/etAddTrackName" android:layout_toRightOf="@+id/tvAddTrackName" android:layout_width="wrap_content" android:id="@+id/etAddTrackDesc" android:layout_marginRight="10dip" android:width="200dip"></EditText><TextView android:layout_height="wrap_content" android:layout_below="@+id/etAddTrackDesc" android:layout_width="wrap_content" android:layout_margin="10dip" android:id="@+id/tvAddTrackDateLabel" android:text="@string/label_date" android:minWidth="80dip"></TextView><TextView android:layout_height="wrap_content" android:layout_below="@+id/etAddTrackDesc" android:text="@+id/TextView01" android:layout_toRightOf="@+id/tvAddTrackDateLabel" android:layout_width="wrap_content" android:layout_alignBaseline="@+id/tvAddTrackDateLabel" android:id="@+id/tvAddTrackDate"></TextView><TextView android:layout_height="wrap_content" android:layout_below="@+id/etAddTrackName" android:layout_width="wrap_content" android:id="@+id/tvAddTrackDesc" android:layout_margin="10dip" android:layout_alignBaseline="@+id/etAddTrackDesc" android:text="@string/label_description" android:minWidth="80dip"></TextView>
+
+
+
+
+
+
+
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_margin="10dip" android:layout_below="@+id/tvAddTrackDate"><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btAddTrackOk" android:text="OK" android:width="70dip" android:onClick="onClickOk" android:layout_marginBottom="10dip"></Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Cancel" android:id="@+id/btAddTrackCancel" android:width="70dip" android:onClick="onClickCancel" android:layout_marginBottom="10dip"></Button>
+</LinearLayout>
+</RelativeLayout>

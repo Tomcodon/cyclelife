@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright 2010 Tobias Teunissen
+  
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+  
+    http://www.apache.org/licenses/LICENSE-2.0
+  
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+ <RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_height="wrap_content" android:layout_width="fill_parent">
+
+
+<TextView android:text="@+id/TextView01" android:layout_height="wrap_content" android:id="@+id/rnsShareTitle" android:gravity="center" android:layout_width="fill_parent"></TextView>
+<TextView android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/rnsShareTitle" android:layout_marginTop="10dip" android:text="@string/sports" android:layout_toLeftOf="@+id/rnsShareSports"></TextView>
+<Spinner android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/rnsShareTitle" android:id="@+id/rnsShareSports" android:layout_centerInParent="true"></Spinner>
+<Spinner android:layout_width="wrap_content" android:layout_below="@+id/rnsShareSports" android:layout_height="wrap_content" android:layout_centerInParent="true" android:id="@+id/rnsShareZone"></Spinner>
+<Spinner android:layout_width="wrap_content" android:layout_below="@+id/rnsShareZone" android:layout_height="wrap_content" android:layout_centerInParent="true" android:id="@+id/rnsShareWeather"></Spinner><Spinner android:layout_width="wrap_content" android:layout_below="@+id/rnsShareWeather" android:layout_height="wrap_content" android:layout_centerInParent="true" android:id="@+id/rnsShareMood"></Spinner><EditText android:layout_width="wrap_content" android:layout_below="@+id/rnsShareMood" android:layout_height="wrap_content" android:id="@+id/rnsShareTemp" android:layout_centerInParent="true" android:width="50dip" android:digits="0123456789"></EditText><Button android:layout_width="wrap_content" android:layout_below="@+id/rnsShareTemp" android:layout_height="wrap_content" android:id="@+id/rnsShareBtn" android:layout_centerInParent="true" android:text="@string/ok"></Button><TextView android:id="@+id/TextView05" android:layout_width="wrap_content" android:layout_toLeftOf="@+id/rnsShareTemp" android:layout_below="@+id/rnsShareMood" android:layout_height="wrap_content" android:layout_marginTop="10dip" android:text="@string/temperature"></TextView><TextView android:id="@+id/TextView04" android:layout_width="wrap_content" android:layout_toLeftOf="@+id/rnsShareMood" android:layout_below="@+id/rnsShareWeather" android:layout_height="wrap_content" android:layout_marginTop="10dip" android:text="@string/mood"></TextView><TextView android:id="@+id/TextView03" android:layout_width="wrap_content" android:layout_below="@+id/rnsShareZone" android:layout_height="wrap_content" android:layout_marginTop="10dip" android:layout_toLeftOf="@+id/rnsShareWeather" android:text="@string/weather"></TextView><TextView android:id="@+id/TextView02" android:layout_width="wrap_content" android:layout_below="@+id/rnsShareSports" android:layout_height="wrap_content" android:layout_marginTop="10dip" android:text="@string/zone" android:layout_toLeftOf="@+id/rnsShareZone"></TextView>
+
+
+</RelativeLayout>
