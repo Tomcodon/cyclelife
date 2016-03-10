@@ -1,0 +1,2 @@
+This software records your GPS tracks and shows live statistics such as time, speed, distance, and altitude. If you have a Zephyr HxM bluetooth heart rate monitor you can record your heartbeat.
+Also there are statistics and diagrams of your training available after you finished your track.
